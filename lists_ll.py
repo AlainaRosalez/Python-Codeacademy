@@ -202,3 +202,36 @@ print(long_list_len)
 big_range_length = len(big_range)
 print(big_range_length)
 
+#todo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#! Slicing Lists I
+
+#& In Python, often we want to extract only a portion of a list. Dividing a list in such a manner is referred to as slicing.
+#& Lets assume we have a list of letters:
+#* letters = ["a", "b", "c", "d", "e", "f", "g"]
+#& Suppose we want to select from "b" through "f".
+#& We can do this using the following syntax: letters[start:end], where:
+#^ start is the index of the first element that we want to include in our selection. In this case, we want to start at "b", which has index 1.
+#^ end is the index of one more than the last index that we want to include. The last element we want is "f", which has index 5, so end needs to be 6.
+#* sliced_list = letters[1:6]
+#* print(sliced_list)
+#& Would output:
+#* ["b", "c", "d", "e", "f"]
+#? Notice that the element at index 6 (which is "g") is not included in our selection.
+
+#~ 1
+suitcase = ["shirt", "shirt", "pants", "pants", "pajamas", "books"]
+beginning = suitcase[0:4]
+# Your code below: 
+print(beginning)
+
+#~ 2
+suitcase = ["shirt", "shirt", "pants", "pants", "pajamas", "books"]
+beginning = suitcase[0:2]
+# Your code below: 
+print(beginning)
+
+#~ 3
+middle = suitcase[2:4]
+print(middle)
+
