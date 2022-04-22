@@ -386,3 +386,47 @@ games_sorted = sorted(games)
 print(games)
 print(games_sorted)
 
+#todo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#! Review
+
+#& In this lesson, we learned how to:
+#^ Add elements to a list by index using the .insert() method.
+#^ Remove elements from a list by index using the .pop() method.
+#^ Generate a list using the range() function.
+#^ Get the length of a list using the len() function.
+#^ Select portions of a list using slicing syntax.
+#^ Count the number of times that an element appears in a list using the .count() method.
+#^ Sort a list of items using either the .sort() method or sorted() function.
+
+#~ 1
+inventory = ["twin bed", "twin bed", "headboard", "queen bed", "king bed", "dresser", "dresser", "table", "table", "nightstand", "nightstand", "king bed", "king bed", "twin bed", "twin bed", "sheets", "sheets", "pillow", "pillow"]
+inventory_len = len(inventory)
+
+#~ 2
+first = inventory[0]
+
+#~ 3
+last = inventory[-1]
+
+#~ 4
+inventory_2_6 = inventory[2:6]
+
+#~ 5
+first_3 = inventory[:3]
+
+#~ 6
+twin_beds = inventory.count("twin bed")
+
+#~ 7
+removed_item = inventory.pop(4)
+
+#~ 8
+inventory.insert(10, "19th Century Bed Frame")
+
+#~ 9
+print(inventory)
+
+
+
+
